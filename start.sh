@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: instagram-report-bot
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python main.py
-    plan: free
